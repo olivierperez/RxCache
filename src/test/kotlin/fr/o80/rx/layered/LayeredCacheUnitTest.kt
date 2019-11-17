@@ -1,13 +1,11 @@
 package fr.o80.rx.layered
 
-import fr.o80.rx.simple.InMemoryCache
 import io.reactivex.Completable
 import io.reactivex.Single
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import java.lang.RuntimeException
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong
 

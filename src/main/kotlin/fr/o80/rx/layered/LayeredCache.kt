@@ -7,6 +7,9 @@ import io.reactivex.SingleObserver
 import io.reactivex.disposables.Disposables
 import io.reactivex.plugins.RxJavaPlugins
 
+/**
+ * TODO KDoc
+ */
 class LayeredCache<T>(
     private val source: Single<T>,
     private val read: () -> Single<Cache<T>>,

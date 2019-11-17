@@ -8,18 +8,6 @@ import io.reactivex.disposables.Disposable
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicBoolean
 
-
-/**
- * TODO KDoc
- */
-fun <T> Observable<T>.simpleCache(): Observable<T> {
-    return Observable.create(SimpleRxCache(this))
-}
-
-fun <T> Observable<T>.simpleCache(duration: Long, timeUnit: TimeUnit): Observable<T> {
-    return Observable.create(SimpleRxCache(this, duration, timeUnit))
-}
-
 /**
  * TODO KDoc
  */

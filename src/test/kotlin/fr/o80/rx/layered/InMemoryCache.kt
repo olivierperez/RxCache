@@ -1,6 +1,5 @@
-package fr.o80.rx.simple
+package fr.o80.rx.layered
 
-import fr.o80.rx.layered.Cache
 import io.reactivex.Completable
 import io.reactivex.Single
 
